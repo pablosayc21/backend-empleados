@@ -1,7 +1,7 @@
 import sqlite3
 
 
-conn = sqlite3.connect('database.db')
+conn = sqlite3.connect('empleados_departamentos.db')
 
 
 cursor = conn.cursor()
