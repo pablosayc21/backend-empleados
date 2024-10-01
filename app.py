@@ -213,6 +213,8 @@ class RecursoEmpleadoPorId(Resource):
 
     def delete(self, id):
 
+        """Elimina un empleado por su id"""
+
         try:
 
 
