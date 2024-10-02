@@ -26,7 +26,8 @@ pip install -r requirements.txt
 # 5. Activar el entorno de desarrollo.
 conda activate <nombre_del_entorno>
 
-# 5. Si no se encuentra el archivo empleados_departamentos.db, ejecutar el siguiente comando para crear un nuevo archivo. Si se extravía el archivo, puede correr este mismo comando.
+# 6. Si no se encuentra el archivo empleados_departamentos.db, ejecutar el siguiente comando 
+#para crear un nuevo archivo. Si se extravía el archivo, puede correr este mismo comando.
 python creacion_bd.py
 ```
 
