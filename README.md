@@ -20,11 +20,11 @@ cd backend-empleados
 # 3. Crear entorno de desarrollo.
 conda create --name <nombre_del_entorno> python=3.8 
 
-# 4. Instalar los paquetes requeridos en requirements.txt usando pip.
-pip install -r requirements.txt
-
-# 5. Activar el entorno de desarrollo.
+# 4. Activar el entorno de desarrollo.
 conda activate <nombre_del_entorno>
+
+# 5. Instalar los paquetes requeridos en requirements.txt usando pip.
+pip install -r requirements.txt
 
 # 6. Si no se encuentra el archivo empleados_departamentos.db, ejecutar el siguiente comando 
 #para crear un nuevo archivo. Si se extravía el archivo, puede correr este mismo comando.
