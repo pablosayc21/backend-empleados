@@ -1,5 +1,5 @@
 # backend-empleados
-Código fuente del backend para aplicación de gestión de empleados.
+Código fuente del API REST para aplicación de gestión de empleados.
 
 ![Python]
 ![Flask]
@@ -8,16 +8,38 @@ Código fuente del backend para aplicación de gestión de empleados.
 
 ## Guia de instalación
 
-* Crear un ambiente de desarrollo de python con los requerimientos encontrados [Acá](https://github.com/pablosayc21/backend-empleados/blob/main/requirements.txt).
-  * [Recurso](https://datumorphism.leima.is/til/programming/python/python-anaconda-install-requirements/) para este paso usando Conda.
-* Clonar [este](https://github.com/pablosayc21/backend-empleados.git) repositorio.
-* Colocarse en la rama main.
-* Si el archivo [empleados_departamentos.db](https://github.com/pablosayc21/backend-empleados/blob/main/empleados_departamentos.db) no se encuentra o pierde, ejecute el archivo [creacion_bd.py](https://github.com/pablosayc21/backend-empleados/blob/main/creacion_bd.py) para crear un nuevo archivo con las tablas necesarias para el funcionamiento de la aplicación.
+Se recomienda tener un ambiente de desarrollo en Python. Para el desarrollo de este API REST se utilizó con [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html). 
+
+```bash
+# 1. Clonar el repositorio
+git clone https://github.com/pablosayc21/backend-empleados
+
+# 2. Ingresar al directorio
+cd backend-empleados
+
+# 3. Crear entorno de desarrollo con el archivo requirements.txt
+conda create --name <nombre_del_entorno> python=3.8 --file requirements.txt
+
+# 4. Activar el entorno de desarrollo.
+conda activate <nombre_del_entorno>
+
+# 5. Si no se encuentra el archivo empleados_departamentos.db, ejecutar el siguiente comando para crear un nuevo archivo. Si se extravía el archivo, puede correr este mismo comando.
+python creacion_bd.py
+```
 
 ## Guia de ejecución 
 
-* python [app.py](https://github.com/pablosayc21/backend-empleados/blob/main/app.py) para ejecutar la aplicación.
-* Puede conectarse al API con el puerto 5000.
+
+```bash
+# 1. Activar el entorno de desarrollo.
+conda activate <nombre_del_entorno>
+
+# 2. Ejecutar el servidor.
+python app.py
+```
+El API corre en el puerto 5000.
+
+Para acceder al API, use esta dirección: `http://127.0.0.1:5000`.
 
 ## Endpoints
 
