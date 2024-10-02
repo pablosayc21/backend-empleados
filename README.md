@@ -216,9 +216,6 @@ Para acceder al API, use esta dirección: `http://127.0.0.1:5000`.
 
 [LinkedIn](https://www.linkedin.com/in/PabloSay21/)
 
-## Reconocimientos: 
-
-L Ma (2019). 'Installing requirements.txt in Conda Environments', Datumorphism, 03 April. Available at: https://datumorphism.leima.is/til/programming/python/python-anaconda-install-requirements/.
 
 [Python]:https://img.shields.io/badge/Python-gray?logo=python
 [Flask]:https://img.shields.io/badge/flask-gray?logo=flask
