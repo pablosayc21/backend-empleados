@@ -1,11 +1,13 @@
 from flask import Flask, request, jsonify
 from flask_restx import Api, Resource
+from flask_cors import CORS
 import administrador_bd
 from datetime import datetime
 import logging
 logging.basicConfig(level=logging.ERROR)
 
 app = Flask(__name__)
+CORS(app)
 api = Api(app)
 administrador_bd.inicializar_app(app)
 
@@ -41,7 +43,7 @@ class RecursoDepartamento(Resource):
 
             diccionario_departamentos = [dict(dep) for dep in departamentos]
 
-            return jsonify({'departamentos':diccionario_departamentos})
+            return jsonify(diccionario_departamentos)
             
         except Exception as e:
 
@@ -100,7 +102,7 @@ class RecursoEmpleado(Resource):
 
             diccionario_empleados = [dict(emp) for emp in empleados]
 
-            return jsonify({"empleados": diccionario_empleados})
+            return jsonify( diccionario_empleados)
 
         except Exception as e:
 
