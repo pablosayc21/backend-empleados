@@ -8,10 +8,10 @@ Código fuente del backend para aplicación de gestión de empleados.
 
 ## Guia de instalación
 
-* Clonar [este](https://github.com/pablosayc21/backend-empleados.git) repositorio.
-* Colocarse en la rama main.
 * Crear un ambiente de desarrollo de python con los requerimientos encontrados [Acá](https://github.com/pablosayc21/backend-empleados/blob/main/requirements.txt).
   * [Recurso](https://datumorphism.leima.is/til/programming/python/python-anaconda-install-requirements/) para este paso usando Conda.
+* Clonar [este](https://github.com/pablosayc21/backend-empleados.git) repositorio.
+* Colocarse en la rama main.
 * Si el archivo [empleados_departamentos.db](https://github.com/pablosayc21/backend-empleados/blob/main/empleados_departamentos.db) no se encuentra o pierde, ejecute el archivo [creacion_bd.py](https://github.com/pablosayc21/backend-empleados/blob/main/creacion_bd.py) para crear un nuevo archivo con las tablas necesarias para el funcionamiento de la aplicación.
 
 ## Guia de ejecución 
